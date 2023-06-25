@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    padding: 1.5rem 2.4rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    &.cyan{
+        border-top: .2rem solid $cyan;
+    }
+    &.red{
+        border-top: .2rem solid $red;
+    }
+    &.orange{
+        border-top: .2rem solid $orange;
+    }
+    &.blue{
+        border-top: .2rem solid $blue;
+    }
+
+    .card__title{
+        font-size: 1.2rem;
+    }
+    .card__paragraph{
+        font-size: .8rem;
+        color: $grayishBlue;
+    }
+    .card__image{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+        margin-top: 1.5rem;
+        margin-left: auto;
+    }
+}

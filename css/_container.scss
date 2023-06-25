@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 5.3rem 2.667rem 2rem;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: $veryLightGray;
+}
